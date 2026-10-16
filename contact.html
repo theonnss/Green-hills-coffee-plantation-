@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Green Hills Coffee Plantation</title>
+
+  <style>
+    :root {
+      --forest: #173f2a;
+      --coffee: #6f4328;
+      --gold: #d6a84f;
+      --ink: #243027;
+      --cream: #fffaf0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: linear-gradient(
+        135deg,
+        #f4f0df 0%,
+        #fffaf0 48%,
+        #e5f0df 100%
+      );
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.65;
+    }
+
+    header {
+      padding: 3rem 1rem;
+      text-align: center;
+      color: white;
+      background:
+        linear-gradient(
+          rgba(23, 63, 42, 0.88),
+          rgba(23, 63, 42, 0.88)
+        ),
+        url("coffee_farm.jpg") center/cover;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+    }
+
+    h2 {
+      color: var(--forest);
+      border-left: 6px solid var(--gold);
+      padding-left: 0.75rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+
+    .contact-card,
+    .visitor-card {
+      margin: 1.5rem 0;
+      padding: 1.5rem;
+      background: rgba(255, 255, 255, 0.82);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(31, 61, 39, 0.1);
+    }
+
+    dt {
+      color: var(--coffee);
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    dt:first-child {
+      margin-top: 0;
+    }
+
+    dd {
+      margin-left: 0;
+    }
+
+    a {
+      color: #145c39;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: var(--coffee);
+    }
+
+    footer {
+      padding: 1.5rem;
+      text-align: center;
+      color: white;
+      background: var(--forest);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Contact the Plantation</h1>
+    <p>
+      We would love to welcome you to Green Hills Coffee Plantation.
+    </p>
+  </header>
+
+  <main>
+    <section class="contact-card" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+
+      <dl>
+        <dt>Address</dt>
+        <dd>
+          Green Hills Coffee Plantation, Highland Road, Kenya
+        </dd>
+
+        <dt>Phone</dt>
+        <dd>
+          <a href="tel:+254700123456">
+            +254 700 123 456
+          </a>
+        </dd>
+
+        <dt>Email</dt>
+        <dd>
+          <a href="mailto:info@greenhillscoffee.example">
+            info@greenhillscoffee.example
+          </a>
+        </dd>
+
+        <dt>Opening Hours</dt>
+        <dd>Monday to Saturday: 8:00 a.m. - 5:00 p.m.</dd>
+        <dd>Sunday: 10:00 a.m. - 3:00 p.m.</dd>
+      </dl>
+    </section>
+
+    <section class="visitor-card" aria-labelledby="visit-heading">
+      <h2 id="visit-heading">Plan Your Visit</h2>
+
+      <p>
+        Visitors can enjoy a guided walk through the coffee fields,
+        learn about coffee production and sample freshly prepared coffee.
+        Please contact us in advance to arrange a tour or discuss coffee
+        orders.
+      </p>
+
+      <p>
+        <a href="coffee_plantation.html">
+          Return to Green Hills Coffee Plantation
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Green Hills Coffee Plantation &copy; 2026
+  </footer>
+</body>
+</html>
